@@ -10,8 +10,12 @@ class App extends Component {
   }
 
 
-  //Your code here:
+  componentDidMount(clockTick) {
+    this.handleAddTimer()
+  }
 
+
+  
 
 
 
